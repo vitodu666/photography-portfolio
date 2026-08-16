@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: /
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.mp4$
+Disallow: /*.webp$
+Disallow: /*.gif$
