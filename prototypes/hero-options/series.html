@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="DU WENTONG 摄影作品系列" />
+    <title>Series — DU WENTONG</title>
+    <link rel="stylesheet" href="./foundation.css?v=20260814i" />
+    <link rel="stylesheet" href="./series.css?v=20260814i" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./index.html" aria-label="返回首页">DU WENTONG <span>首页</span></a>
+      <div class="header-extra">
+        <a class="series-close" href="./index.html#portraits" aria-label="返回上一个作品入口">Back / 返回 <span aria-hidden="true">×</span></a>
+        <nav class="site-nav" aria-label="页面导航">
+          <a href="./portraits.html">Portrait <span>人像</span></a>
+          <a href="./commercial.html">Commercial <span>商业</span></a>
+          <a href="./journal.html">Journal <span>日常</span></a>
+          <a href="./index.html#contact">Contact <span>联系</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="series-cover" aria-labelledby="series-title">
+        <div class="series-cover-copy">
+          <p class="series-label"></p>
+          <h1 id="series-title"></h1>
+          <p class="series-category"><span class="series-category-en"></span> / <span class="series-category-zh"></span></p>
+        </div>
+        <figure><img class="series-cover-image" src="" alt="" /></figure>
+        <p class="series-scroll">Scroll to view / 下滑浏览 <span aria-hidden="true">↓︎</span></p>
+      </section>
+
+      <section class="series-note" aria-label="作品说明">
+        <p>Photographs / 摄影作品</p>
+        <p class="series-hint">Click any image to view full screen / 点击图片可全屏浏览</p>
+        <p class="series-count"></p>
+      </section>
+
+      <section class="series-gallery" aria-label="作品组图"></section>
+
+      <nav class="series-nav" aria-label="系列导航">
+        <a class="series-prev" href="" aria-label="上一组作品">
+          <p>Previous series / 上一组</p>
+        </a>
+        <a class="series-next" href="" aria-label="下一组作品">
+          <p class="series-next-label">Next series / 下一组</p>
+          <div class="series-next-row"><span class="series-next-title"></span><span aria-hidden="true">→︎</span></div>
+        </a>
+      </nav>
+    </main>
+
+    <dialog class="lightbox" aria-label="作品大图浏览">
+      <button class="lightbox-close" type="button" aria-label="关闭大图">Close / 关闭 <span aria-hidden="true">×</span></button>
+      <button class="lightbox-step lightbox-prev" type="button" aria-label="上一张"><span aria-hidden="true">←︎</span></button>
+      <figure class="lightbox-stage"><img class="lightbox-image" src="" alt="" /></figure>
+      <button class="lightbox-step lightbox-next" type="button" aria-label="下一张"><span aria-hidden="true">→︎</span></button>
+      <p class="lightbox-count" aria-live="polite"></p>
+    </dialog>
+
+    <script src="./portfolio-data.js?v=20260814i"></script>
+    <script src="./commercial-data.js?v=20260814i"></script>
+    <script src="./series-page.js?v=20260814i"></script>
+    <script src="./site-protect.js"></script>
+</body>
+</html>

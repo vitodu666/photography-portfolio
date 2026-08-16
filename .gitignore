@@ -1,0 +1,16 @@
+# 系统/缓存垃圾
+.DS_Store
+Thumbs.db
+*.log
+
+# 交接压缩包不进版本库
+*.zip
+
+# 本地依赖
+node_modules/
+
+# 项目本地记忆（不对外）
+.workbuddy/
+
+# 本地预览服务器进程文件
+.http-server*
